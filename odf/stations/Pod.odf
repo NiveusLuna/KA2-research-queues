@@ -80,3 +80,12 @@ perceivedneutral = 1
 invalidAsTarget = 1
 has_crew = 0
 footprintbuffer = 0f
+
+// ****************************
+// Let's add queues!
+
+// The AI needs to be told where to find me.
+isresearchedbyyard = 1
+
+// I make upgrade noises!
+constructionvoice = 3
