@@ -1,5 +1,7 @@
 sprite_table
 
+@include gui_research-queue.spr
+
 # Shared GUI sprites, a.k.a. non-race specific.
 
 ## SPRITE DATA ##
@@ -959,50 +961,6 @@ FSensorw2			FSensorWire		0	0	64	64
 FSensorw3			FSensorWire		0	0	64	64		
 FSensorw4			FSensorWire		0	0	64	64		
 FSensorw5			FSensorWire		0	0	64	64
-
-
-
-FedPod1w1			FedPod1Button		0	0	64w1	64w1		
-FedPod2w1			FedPod2Button		0	0	64w1	64w1	
-FedPod3w1			FedPod3Button		0	0	64w1	64w1	
-FedPod4w1			FedPod4Button		0	0	64w1	64w1			
-FedPod5w1			FedPod5Button		0	0	64w1	64
-FedPod11w1			FedPod11Button		0	0	64w1	64
-FedPod12w1			FedPod12Button		0	0	64w1	64
-FedPod13w1			FedPod13Button		0	0	64w1	64
-FedPod14w1			FedPod14Button		0	0	64w1	64
-FedPod15w1			FedPod15Button		0	0	64w1	64
-FedPod21w1			FedPod21Button		0	0	64w1	64
-FedPod22w1			FedPod22Button		0	0	64w1	64
-FedPod23w1			FedPod23Button		0	0	64w1	64
-FedPod24w1			FedPod24Button		0	0	64w1	64
-FedPod25w1			FedPod25Button		0	0	64w1	64
-FedEqu1w1			  FedEqu1Button			0	0	64w1	64
-FedEqu2w1			  FedEqu2Button			0	0	64w1	64
-FedEqu3w1			  FedEqu3Button			0	0	64w1	64
-FedEqu4w1			  FedEqu4Button			0	0	64w1	64
-FedEqu5w1			  FedEqu5Button			0	0	64w1	64
-FedEqu6w1			  FedEqu6Button			0	0	64w1	64
-FedHull1w1		  FedHull1Button		0	0	64w1	64 
-FedHull2w1		  FedHull2Button		0	0	64w1	64
-FedHull3w1		  FedHull3Button		0	0	64w1	64
-FedHull4w1		  FedHull4Button		0	0	64w1	64
-FedHull5w1		  FedHull5Button		0	0	64w1	64
-FedHull6w1		  FedHull6Button		0	0	64w1	64
-FedHull7w1		  FedHull7Button		0	0	64w1	64
-FedHull8w1		  FedHull8Button		0	0	64w1	64
-FedMiscR1w1		  FedMiscR1Button		0	0	64w1	64 
-FedMiscR2w1		  FedMiscR2Button		0	0	64w1	64 
-FedMiscR3w1		  FedMiscR3Button		0	0	64w1	64 
-FedMiscR4w1		  FedMiscR4Button		0	0	64w1	64 
-FedMiscR5w1		  FedMiscR5Button		0	0	64w1	64 
-FedMiscR6w1		  FedMiscR6Button		0	0	64w1	64 
-FedMix1w1			  FedKliMixButton		0	0	64w1	64 
-FedMix2w1			  FedRomMixButton		0	0	64w1	64 
-FedMix3w1			  FedGorMixButton		0	0	64w1	64 
-FedMix4w1			  FedISCMixButton		0	0	64w1	64 
-FedMix5w1			  FedHydMixButton		0	0	64w1	64 
-FedMix6w1			  FedLyrMixButton		0	0	64w1	64 
 
 # Reserve Fleet Wireframes
 
