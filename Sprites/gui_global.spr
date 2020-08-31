@@ -960,245 +960,49 @@ FSensorw3			FSensorWire		0	0	64	64
 FSensorw4			FSensorWire		0	0	64	64		
 FSensorw5			FSensorWire		0	0	64	64
 
-FedEqu2w1			FPodWire		0	0	64	64		
-FedEqu2w2			FPodWire		0	0	64	64		
-FedEqu2w3			FPodWire		0	0	64	64		
-FedEqu2w4			FPodWire		0	0	64	64		
-FedEqu2w5			FPodWire		0	0	64	64
 
-FedEqu3w1			FPodWire		0	0	64	64		
-FedEqu3w2			FPodWire		0	0	64	64		
-FedEqu3w3			FPodWire		0	0	64	64		
-FedEqu3w4			FPodWire		0	0	64	64		
-FedEqu3w5			FPodWire		0	0	64	64
 
-FedEqu4w1			FPodWire		0	0	64	64		
-FedEqu4w2			FPodWire		0	0	64	64		
-FedEqu4w3			FPodWire		0	0	64	64		
-FedEqu4w4			FPodWire		0	0	64	64		
-FedEqu4w5			FPodWire		0	0	64	64
-
-FedEqu5w1			FPodWire		0	0	64	64		
-FedEqu5w2			FPodWire		0	0	64	64		
-FedEqu5w3			FPodWire		0	0	64	64		
-FedEqu5w4			FPodWire		0	0	64	64		
-FedEqu5w5			FPodWire		0	0	64	64
-
-FedEqu6w1			FPodWire		0	0	64	64		
-FedEqu6w2			FPodWire		0	0	64	64		
-FedEqu6w3			FPodWire		0	0	64	64		
-FedEqu6w4			FPodWire		0	0	64	64		
-FedEqu6w5			FPodWire		0	0	64	64
-
-FedHull1w1			FPodWire		0	0	64	64		
-FedHull1w2			FPodWire		0	0	64	64		
-FedHull1w3			FPodWire		0	0	64	64		
-FedHull1w4			FPodWire		0	0	64	64		
-FedHull1w5			FPodWire		0	0	64	64
-
-FedHull2w1			FPodWire		0	0	64	64		
-FedHull2w2			FPodWire		0	0	64	64		
-FedHull2w3			FPodWire		0	0	64	64		
-FedHull2w4			FPodWire		0	0	64	64		
-FedHull2w5			FPodWire		0	0	64	64
-
-FedHull3w1			FPodWire		0	0	64	64		
-FedHull3w2			FPodWire		0	0	64	64		
-FedHull3w3			FPodWire		0	0	64	64		
-FedHull3w4			FPodWire		0	0	64	64		
-FedHull3w5			FPodWire		0	0	64	64
-
-FedHull4w1			FPodWire		0	0	64	64		
-FedHull4w2			FPodWire		0	0	64	64		
-FedHull4w3			FPodWire		0	0	64	64		
-FedHull4w4			FPodWire		0	0	64	64		
-FedHull4w5			FPodWire		0	0	64	64
-
-FedHull5w1			FPodWire		0	0	64	64		
-FedHull5w2			FPodWire		0	0	64	64		
-FedHull5w3			FPodWire		0	0	64	64		
-FedHull5w4			FPodWire		0	0	64	64		
-FedHull5w5			FPodWire		0	0	64	64
-
-FedHull6w1			FPodWire		0	0	64	64		
-FedHull6w2			FPodWire		0	0	64	64		
-FedHull6w3			FPodWire		0	0	64	64		
-FedHull6w4			FPodWire		0	0	64	64		
-FedHull6w5			FPodWire		0	0	64	64
-
-FedHull7w1			FPodWire		0	0	64	64		
-FedHull7w2			FPodWire		0	0	64	64		
-FedHull7w3			FPodWire		0	0	64	64		
-FedHull7w4			FPodWire		0	0	64	64		
-FedHull7w5			FPodWire		0	0	64	64
-
-FedHull8w1			FPodWire		0	0	64	64		
-FedHull8w2			FPodWire		0	0	64	64		
-FedHull8w3			FPodWire		0	0	64	64		
-FedHull8w4			FPodWire		0	0	64	64		
-FedHull8w5			FPodWire		0	0	64	64
-
-FedMiscR1w1			FPodWire		0	0	64	64		
-FedMiscR1w2			FPodWire		0	0	64	64		
-FedMiscR1w3			FPodWire		0	0	64	64		
-FedMiscR1w4			FPodWire		0	0	64	64		
-FedMiscR1w5			FPodWire		0	0	64	64
-
-FedMiscR2w1			FPodWire		0	0	64	64		
-FedMiscR2w2			FPodWire		0	0	64	64		
-FedMiscR2w3			FPodWire		0	0	64	64		
-FedMiscR2w4			FPodWire		0	0	64	64		
-FedMiscR2w5			FPodWire		0	0	64	64
-
-FedMiscR3w1			FPodWire		0	0	64	64		
-FedMiscR3w2			FPodWire		0	0	64	64		
-FedMiscR3w3			FPodWire		0	0	64	64		
-FedMiscR3w4			FPodWire		0	0	64	64		
-FedMiscR3w5			FPodWire		0	0	64	64
-
-FedMiscR4w1			FPodWire		0	0	64	64		
-FedMiscR4w2			FPodWire		0	0	64	64		
-FedMiscR4w3			FPodWire		0	0	64	64		
-FedMiscR4w4			FPodWire		0	0	64	64		
-FedMiscR4w5			FPodWire		0	0	64	64
-
-FedMiscR5w1			FPodWire		0	0	64	64		
-FedMiscR5w2			FPodWire		0	0	64	64		
-FedMiscR5w3			FPodWire		0	0	64	64		
-FedMiscR5w4			FPodWire		0	0	64	64		
-FedMiscR5w5			FPodWire		0	0	64	64
-
-FedMiscR6w1			FPodWire		0	0	64	64		
-FedMiscR6w2			FPodWire		0	0	64	64		
-FedMiscR6w3			FPodWire		0	0	64	64		
-FedMiscR6w4			FPodWire		0	0	64	64		
-FedMiscR6w5			FPodWire		0	0	64	64
-
-FedPod1w1			FPodWire		0	0	64	64		
-FedPod1w2			FPodWire		0	0	64	64		
-FedPod1w3			FPodWire		0	0	64	64		
-FedPod1w4			FPodWire		0	0	64	64		
-FedPod1w5			FPodWire		0	0	64	64
-
-FedPod2w1			FPodWire		0	0	64	64		
-FedPod2w2			FPodWire		0	0	64	64		
-FedPod2w3			FPodWire		0	0	64	64		
-FedPod2w4			FPodWire		0	0	64	64		
-FedPod2w5			FPodWire		0	0	64	64
-
-FedPod3w1			FPodWire		0	0	64	64		
-FedPod3w2			FPodWire		0	0	64	64		
-FedPod3w3			FPodWire		0	0	64	64		
-FedPod3w4			FPodWire		0	0	64	64		
-FedPod3w5			FPodWire		0	0	64	64
-
-FedPod4w1			FPodWire		0	0	64	64		
-FedPod4w2			FPodWire		0	0	64	64		
-FedPod4w3			FPodWire		0	0	64	64		
-FedPod4w4			FPodWire		0	0	64	64		
-FedPod4w5			FPodWire		0	0	64	64
-
-FedPod5w1			FPodWire		0	0	64	64		
-FedPod5w2			FPodWire		0	0	64	64		
-FedPod5w3			FPodWire		0	0	64	64		
-FedPod5w4			FPodWire		0	0	64	64		
-FedPod5w5			FPodWire		0	0	64	64
-
-FedPod11w1			FPodWire		0	0	64	64		
-FedPod11w2			FPodWire		0	0	64	64		
-FedPod11w3			FPodWire		0	0	64	64		
-FedPod11w4			FPodWire		0	0	64	64		
-FedPod11w5			FPodWire		0	0	64	64
-
-FedPod12w1			FPodWire		0	0	64	64		
-FedPod12w2			FPodWire		0	0	64	64		
-FedPod12w3			FPodWire		0	0	64	64		
-FedPod12w4			FPodWire		0	0	64	64		
-FedPod12w5			FPodWire		0	0	64	64
-
-FedPod13w1			FPodWire		0	0	64	64		
-FedPod13w2			FPodWire		0	0	64	64		
-FedPod13w3			FPodWire		0	0	64	64		
-FedPod13w4			FPodWire		0	0	64	64		
-FedPod13w5			FPodWire		0	0	64	64
-
-FedPod14w1			FPodWire		0	0	64	64		
-FedPod14w2			FPodWire		0	0	64	64		
-FedPod14w3			FPodWire		0	0	64	64		
-FedPod14w4			FPodWire		0	0	64	64		
-FedPod14w5			FPodWire		0	0	64	64
-
-FedPod15w1			FPodWire		0	0	64	64		
-FedPod15w2			FPodWire		0	0	64	64		
-FedPod15w3			FPodWire		0	0	64	64		
-FedPod15w4			FPodWire		0	0	64	64		
-FedPod15w5			FPodWire		0	0	64	64
-
-FedPod21w1			FPodWire		0	0	64	64		
-FedPod21w2			FPodWire		0	0	64	64		
-FedPod21w3			FPodWire		0	0	64	64		
-FedPod21w4			FPodWire		0	0	64	64		
-FedPod21w5			FPodWire		0	0	64	64
-
-FedPod22w1			FPodWire		0	0	64	64		
-FedPod22w2			FPodWire		0	0	64	64		
-FedPod22w3			FPodWire		0	0	64	64		
-FedPod22w4			FPodWire		0	0	64	64		
-FedPod22w5			FPodWire		0	0	64	64
-
-FedPod23w1			FPodWire		0	0	64	64		
-FedPod23w2			FPodWire		0	0	64	64		
-FedPod23w3			FPodWire		0	0	64	64		
-FedPod23w4			FPodWire		0	0	64	64		
-FedPod23w5			FPodWire		0	0	64	64
-
-FedPod24w1			FPodWire		0	0	64	64		
-FedPod24w2			FPodWire		0	0	64	64		
-FedPod24w3			FPodWire		0	0	64	64		
-FedPod24w4			FPodWire		0	0	64	64		
-FedPod24w5			FPodWire		0	0	64	64
-
-FedPod25w1			FPodWire		0	0	64	64		
-FedPod25w2			FPodWire		0	0	64	64		
-FedPod25w3			FPodWire		0	0	64	64		
-FedPod25w4			FPodWire		0	0	64	64		
-FedPod25w5			FPodWire		0	0	64	64
-
-FedMix1w1			FPodWire		0	0	64	64		
-FedMix1w2			FPodWire		0	0	64	64		
-FedMix1w3			FPodWire		0	0	64	64		
-FedMix1w4			FPodWire		0	0	64	64		
-FedMix1w5			FPodWire		0	0	64	64
-
-FedMix2w1			FPodWire		0	0	64	64		
-FedMix2w2			FPodWire		0	0	64	64		
-FedMix2w3			FPodWire		0	0	64	64		
-FedMix2w4			FPodWire		0	0	64	64		
-FedMix2w5			FPodWire		0	0	64	64
-
-FedMix3w1			FPodWire		0	0	64	64		
-FedMix3w2			FPodWire		0	0	64	64		
-FedMix3w3			FPodWire		0	0	64	64		
-FedMix3w4			FPodWire		0	0	64	64		
-FedMix3w5			FPodWire		0	0	64	64
-
-FedMix4w1			FPodWire		0	0	64	64		
-FedMix4w2			FPodWire		0	0	64	64		
-FedMix4w3			FPodWire		0	0	64	64		
-FedMix4w4			FPodWire		0	0	64	64		
-FedMix4w5			FPodWire		0	0	64	64
-
-FedMix5w1			FPodWire		0	0	64	64		
-FedMix5w2			FPodWire		0	0	64	64		
-FedMix5w3			FPodWire		0	0	64	64		
-FedMix5w4			FPodWire		0	0	64	64		
-FedMix5w5			FPodWire		0	0	64	64
-
-FedMix6w1			FPodWire		0	0	64	64		
-FedMix6w2			FPodWire		0	0	64	64		
-FedMix6w3			FPodWire		0	0	64	64		
-FedMix6w4			FPodWire		0	0	64	64		
-FedMix6w5			FPodWire		0	0	64	64
+FedPod1w1			FedPod1Button		0	0	64w1	64w1		
+FedPod2w1			FedPod2Button		0	0	64w1	64w1	
+FedPod3w1			FedPod3Button		0	0	64w1	64w1	
+FedPod4w1			FedPod4Button		0	0	64w1	64w1			
+FedPod5w1			FedPod5Button		0	0	64w1	64
+FedPod11w1			FedPod11Button		0	0	64w1	64
+FedPod12w1			FedPod12Button		0	0	64w1	64
+FedPod13w1			FedPod13Button		0	0	64w1	64
+FedPod14w1			FedPod14Button		0	0	64w1	64
+FedPod15w1			FedPod15Button		0	0	64w1	64
+FedPod21w1			FedPod21Button		0	0	64w1	64
+FedPod22w1			FedPod22Button		0	0	64w1	64
+FedPod23w1			FedPod23Button		0	0	64w1	64
+FedPod24w1			FedPod24Button		0	0	64w1	64
+FedPod25w1			FedPod25Button		0	0	64w1	64
+FedEqu1w1			  FedEqu1Button			0	0	64w1	64
+FedEqu2w1			  FedEqu2Button			0	0	64w1	64
+FedEqu3w1			  FedEqu3Button			0	0	64w1	64
+FedEqu4w1			  FedEqu4Button			0	0	64w1	64
+FedEqu5w1			  FedEqu5Button			0	0	64w1	64
+FedEqu6w1			  FedEqu6Button			0	0	64w1	64
+FedHull1w1		  FedHull1Button		0	0	64w1	64 
+FedHull2w1		  FedHull2Button		0	0	64w1	64
+FedHull3w1		  FedHull3Button		0	0	64w1	64
+FedHull4w1		  FedHull4Button		0	0	64w1	64
+FedHull5w1		  FedHull5Button		0	0	64w1	64
+FedHull6w1		  FedHull6Button		0	0	64w1	64
+FedHull7w1		  FedHull7Button		0	0	64w1	64
+FedHull8w1		  FedHull8Button		0	0	64w1	64
+FedMiscR1w1		  FedMiscR1Button		0	0	64w1	64 
+FedMiscR2w1		  FedMiscR2Button		0	0	64w1	64 
+FedMiscR3w1		  FedMiscR3Button		0	0	64w1	64 
+FedMiscR4w1		  FedMiscR4Button		0	0	64w1	64 
+FedMiscR5w1		  FedMiscR5Button		0	0	64w1	64 
+FedMiscR6w1		  FedMiscR6Button		0	0	64w1	64 
+FedMix1w1			  FedKliMixButton		0	0	64w1	64 
+FedMix2w1			  FedRomMixButton		0	0	64w1	64 
+FedMix3w1			  FedGorMixButton		0	0	64w1	64 
+FedMix4w1			  FedISCMixButton		0	0	64w1	64 
+FedMix5w1			  FedHydMixButton		0	0	64w1	64 
+FedMix6w1			  FedLyrMixButton		0	0	64w1	64 
 
 # Reserve Fleet Wireframes
 
