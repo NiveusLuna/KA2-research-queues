@@ -1,0 +1,131 @@
+#include "research.odf"
+
+//**********************************************************************
+//MAIN DESIGN PARAMETERS
+
+//Name of Ship class in Ship Display window & in edit mode & tooltip
+unitName = "Royal Naval Research Institute"
+
+//tooltips
+tooltip = "Royal Naval Research Institute - Vessel Systems Upgrades"
+verboseTooltip = "GOR_UPGRADE_V"
+
+//Race which can build ship & starting race of ship
+race = "klingon"
+
+//Amount of time required to build ship
+buildTime = 250.0
+
+//Number of officers required to build this ship
+officerCost = 10
+
+//Number of crew required to build ship & Starting crew
+crewCost = 400
+
+//Dilithium Cost to build
+dilithiumCost = 0
+
+//Metal Cost to build
+metalCost = 2000
+
+//Max Shield Strength & Begining Shield Strength <1000
+//maxHealth = 1000
+maxHealth = 500
+maxShields = 1000
+
+//Rate at which shield recharges (points per second... we think)
+shieldRate = 1.5
+
+//SYSTEM HITPOINTS
+shieldGeneratorHitPoints = 230
+enginesHitPoints = 0
+weaponsHitPoints = 230
+lifeSupportHitPoints = 230
+sensorsHitPoints = 230
+
+//Possible Craft Names
+possibleCraftNames = 
+	"Lsstheth Center" "Sarzt Center" "Borthz Center" "Hozzth Center"
+	 "Lazzth Center" "Ozentz Center" "Nargthh Center" "Torgoth Center" 
+
+// Gorn Non-Combat Sensors
+rangeScan = 600.0f
+
+shieldhit = "shield_gor_hitXL"
+shieldhitcritical = "shield_gor_hitcritXL"
+shielddown = "shield_gor_down"
+
+//**********************************************************************
+//Construction Parameters
+
+podHardpoints = "hp01" "hp02" "hp03" "hp04" "hp05" "hp31" "hp32" "hp33" "hp34" "hp35"
+buildItem0 = "GorPod11"
+buildItem1 = "GorPod12"
+buildItem2 = "GorPod13"
+buildItem3 = "GorPod14"
+buildItem4 = "GorPod15"
+
+//buildItem0 = "GorPod15"
+//buildItem1 = "GorPod14"
+//buildItem2 = "GorPod13"
+//buildItem3 = "GorPod12"
+//buildItem4 = "GorPod11"
+
+secondaryBuildItem0 = "GorPod21"
+secondaryBuildItem1 = "GorPod22"
+secondaryBuildItem2 = "GorPod23"
+secondaryBuildItem3 = "GorPod24"
+secondaryBuildItem4 = "GorPod25"
+
+//secondaryBuildItem0 = "GorPod25"
+//secondaryBuildItem1 = "GorPod24"
+//secondaryBuildItem2 = "GorPod23"
+//secondaryBuildItem3 = "GorPod22"
+//secondaryBuildItem4 = "GorPod21"
+
+//**********************************************************************
+
+//**********************************************************************
+//ART PARAMETERS & WEAPON NAMES
+
+// Hardpoints to hit for various systems and other locations.
+enginesTargetHardpoints =
+lifeSupportTargetHardpoints = "hp11" "hp12" "hp13" "hp14" "hp15"
+weaponsTargetHardpoints =
+shieldGeneratorTargetHardpoints = "hp16" "hp17" "hp18" "hp19" "hp20"
+sensorsTargetHardpoints = "hp21" "hp22" "hp23" "hp24" "hp25"
+hullTargetHardpoints = "hp11" "hp12" "hp13" "hp14" "hp15"
+criticalTargetHardpoints = "hp16" "hp17" "hp18" "hp19" "hp20"
+
+//**********************************************************************
+//**********************************************************************
+//AI system parameters
+//These parameters influence how the AI evaluates and compares craft.
+
+//The normalized intrinsic value of a target.  High value craft make good
+//attack targets. (0.0=lowest value, 1.0=highest value)
+intrinsicValue = 1.00f
+
+
+//**********************************************************************
+//MESSAGE & SOUND PARAMETERS
+
+eventSelect = "ShipUpgradeStationSelect"
+eventAcknowledge = "ShipUpgradeStationAcknowledge"
+eventDecommission = "ShipUpgradeStationDecommission"
+
+//**********************************************************************
+
+
+//**********************************************************************
+//KEYMAP LABEL
+// Obsolete, use hotkeyLabel
+// keymapLabel = "ship_upgrade_station"
+hotkeyLabel = "HOTKEY_U"
+
+//************************************************************
+// Brian additions for context sensitive menus
+transporter = 1
+alert = 0
+basename = "gupgrade"
+ScaleSOD = 1.0
