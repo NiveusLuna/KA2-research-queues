@@ -62,16 +62,16 @@ shielddown = "shield_rom_down"
 
 podHardpoints = "pod10" "pod11" "pod12" "pod13" "pod15" "pod31" "pod32" "pod33" "pod34" "pod35"
 buildItem0 = "rompod11"
-buildItem1 = "rompod12"
-buildItem2 = "rompod13"
-buildItem3 = "rompod14"
-buildItem4 = "rompod15"
+buildItem2 = "rompod12"
+buildItem4 = "rompod13"
+buildItem6 = "rompod14"
+buildItem8 = "rompod15"
 
-secondaryBuildItem0 = "rompod21"
-secondaryBuildItem1 = "rompod22"
-secondaryBuildItem2 = "rompod23"
-secondaryBuildItem3 = "rompod24"
-secondaryBuildItem4 = "rompod25"
+BuildItem1 = "rompod21"
+BuildItem3 = "rompod22"
+BuildItem5 = "rompod23"
+BuildItem7 = "rompod24"
+BuildItem9 = "rompod25"
 
 //**********************************************************************
 
