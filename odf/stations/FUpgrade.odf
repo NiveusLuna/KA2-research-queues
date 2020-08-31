@@ -60,28 +60,15 @@ shielddown = "shield_fed_down"
 
 podHardpoints = "hp01" "hp02" "hp03" "hp04" "hp05" "hp31" "hp32" "hp33" "hp34" "hp35"
 buildItem0 = "FedPod11"
-buildItem1 = "FedPod12"
-buildItem2 = "FedPod13"
-buildItem3 = "FedPod14"
-buildItem4 = "FedPod15"
-
-//buildItem0 = "FedPod15"
-//buildItem1 = "FedPod14"
-//buildItem2 = "FedPod13"
-//buildItem3 = "FedPod12"
-//buildItem4 = "FedPod11"
-
-secondaryBuildItem0 = "FedPod21"
-secondaryBuildItem1 = "FedPod22"
-secondaryBuildItem2 = "FedPod23"
-secondaryBuildItem3 = "FedPod24"
-secondaryBuildItem4 = "FedPod25"
-
-//secondaryBuildItem0 = "FedPod25"
-//secondaryBuildItem1 = "FedPod24"
-//secondaryBuildItem2 = "FedPod23"
-//secondaryBuildItem3 = "FedPod22"
-//secondaryBuildItem4 = "FedPod21"
+BuildItem1 = "FedPod21"
+buildItem2 = "FedPod12"
+BuildItem3 = "FedPod22"
+buildItem4 = "FedPod13"
+BuildItem5 = "FedPod23"
+buildItem6 = "FedPod14"
+BuildItem7 = "FedPod24"
+buildItem8 = "FedPod15"
+BuildItem9 = "FedPod25"
 
 //**********************************************************************
 
