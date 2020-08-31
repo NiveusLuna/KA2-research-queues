@@ -1,28 +1,4 @@
-#include "station.odf"
-
-//Generic Research Station ODF file
-
-//Default values for ALL turrets (can be overriden in successive ODF files)
-//Sensor arrays should also use the turret odf to derive from although.
-//they have to override several values provided here.
-
-//Buffer around bounding box for laying station footprint
-//to block building.
-footprintBuffer = 40.0f
-
-//**********************************************************************
-//PROGRAMMING PARAMETERS WHICH SHOULD NOT BE CHANGED & UNUSED PARAMETERS
-
-//programming thing DO NOT CHANGE
-//classLabel = "research"
-
-//**********************************************************************
-// Tara additions for context sensitive menus
-research = 1
-// These don't need the special weapon or movement autonomy buttons
-SHOW_MOVEMENT_AUTONOMY = 0;
-SHOW_SW_AUTONOMY = 0;
-
+#include "Research.odf"
 // ****************************
 // Let's add queues!
 
