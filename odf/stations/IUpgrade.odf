@@ -1,0 +1,133 @@
+#include "research.odf"
+
+//**********************************************************************
+//MAIN DESIGN PARAMETERS
+
+//Name of Ship class in Ship Display window & in edit mode & tooltip
+unitName = "Joint Interstellar Research Station"
+
+//tooltips
+tooltip = "Joint Interstellar Research Station - Vessel Systems Upgrades"
+verboseTooltip = "ISC_UPGRADE_V"
+
+//Race which can build ship & starting race of ship
+race = "borg"
+
+//Amount of time required to build ship
+buildTime = 250.0
+
+//Number of officers required to build this ship
+officerCost = 10
+
+//Number of crew required to build ship & Starting crew
+crewCost = 400
+
+//Dilithium Cost to build
+dilithiumCost = 0
+
+//Metal Cost to build
+metalCost = 2000
+
+//Max Shield Strength & Begining Shield Strength <1000
+//maxHealth = 1000
+maxHealth = 500
+maxShields = 1000
+
+//Rate at which shield recharges (points per second... we think)
+shieldRate = 1.5
+
+//SYSTEM HITPOINTS
+shieldGeneratorHitPoints = 230
+enginesHitPoints = 0
+weaponsHitPoints = 230
+lifeSupportHitPoints = 230
+sensorsHitPoints = 230
+
+//Possible Craft Names
+possibleCraftNames = 
+	"JIRS-7376" "JIRS-7332" "JIRS-3276" "JIRS-8895"
+
+// ISC Non-Combat Sensors
+rangeScan = 600.0f
+
+//animate looped upon build
+animation = 2
+
+shieldhit = "shield_isc_hitXL"
+shieldhitcritical = "shield_isc_hitcritXL"
+shielddown = "shield_isc_down"
+
+//**********************************************************************
+//Construction Parameters
+
+podHardpoints = "hp12" "hp13" "hp14" "hp15" "hp16" "hp17" "hp09" "hp10" "hp11"
+buildItem0 = "ISCPod11"
+buildItem1 = "ISCPod12"
+buildItem2 = "ISCPod13"
+buildItem3 = "ISCPod14"
+buildItem4 = "ISCPod15"
+
+//buildItem0 = "ISCPod15"
+//buildItem1 = "ISCPod14"
+//buildItem2 = "ISCPod13"
+//buildItem3 = "ISCPod12"
+//buildItem4 = "ISCPod11"
+
+secondaryBuildItem0 = "ISCPod21"
+secondaryBuildItem1 = "ISCPod22"
+secondaryBuildItem2 = "ISCPod23"
+secondaryBuildItem3 = "ISCPod24"
+secondaryBuildItem4 = "ISCPod25"
+
+//secondaryBuildItem0 = "ISCPod25"
+//secondaryBuildItem1 = "ISCPod24"
+//secondaryBuildItem2 = "ISCPod23"
+//secondaryBuildItem3 = "ISCPod22"
+//secondaryBuildItem4 = "ISCPod21"
+
+//**********************************************************************
+
+//**********************************************************************
+//ART PARAMETERS & WEAPON NAMES
+
+// Hardpoints to hit for various systems and other locations.
+enginesTargetHardpoints = 
+lifeSupportTargetHardpoints = "hp23" 
+weaponsTargetHardpoints = 
+shieldGeneratorTargetHardpoints = "hp21" 
+sensorsTargetHardpoints = "hp22" 
+hullTargetHardpoints = "hp01" "hp02" "hp03" "hp04" "hp05" 
+criticalTargetHardpoints = "hp18" "hp19" "hp20"
+
+//**********************************************************************
+//**********************************************************************
+//AI system parameters
+//These parameters influence how the AI evaluates and compares craft.
+
+//The normalized intrinsic value of a target.  High value craft make good
+//attack targets. (0.0=lowest value, 1.0=highest value)
+intrinsicValue = 1.00f
+
+
+//**********************************************************************
+//MESSAGE & SOUND PARAMETERS
+
+eventSelect = "ShipUpgradeStationSelect"
+eventAcknowledge = "ShipUpgradeStationAcknowledge"
+eventDecommission = "ShipUpgradeStationDecommission"
+
+//**********************************************************************
+
+
+//**********************************************************************
+//KEYMAP LABEL
+// Obsolete, use hotkeyLabel
+// keymapLabel = "ship_upgrade_station"
+hotkeyLabel = "HOTKEY_U"
+
+//************************************************************
+// Brian additions for context sensitive menus
+transporter = 1
+alert = 0
+baseName = "IUpgrade"
+ScaleSOD = 1.0
