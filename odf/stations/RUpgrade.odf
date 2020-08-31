@@ -1,0 +1,124 @@
+#include "research.odf"
+
+//**********************************************************************
+//MAIN DESIGN PARAMETERS
+
+//Name of Ship class in Ship Display window & in edit mode & tooltip
+unitName = "Praetorial Enhancement Institute"
+
+//tooltips
+tooltip = "Praetorial Enhancement Institute - Vessel Systems Upgrades"
+verboseTooltip = "ROM_UPGRADE_V"
+
+//Race which can build ship & starting race of ship
+race = "romulan"
+
+//Amount of time required to build ship
+buildTime = 250.0
+
+//Number of officers required to build this ship
+officerCost = 10
+
+//Number of crew required to build ship & Starting crew
+crewCost = 400
+
+//Dilithium Cost to build
+dilithiumCost = 0
+
+//Metal Cost to build
+metalCost = 750
+
+//Latinum Cost to build
+latinumCost = 750
+
+//Max Shield Strength & Begining Shield Strength <1000
+//maxHealth = 1000
+maxHealth = 500
+maxShields = 1000
+
+//SYSTEM HITPOINTS
+shieldGeneratorHitPoints = 210
+enginesHitPoints = 0
+weaponsHitPoints = 210
+lifeSupportHitPoints = 210
+sensorsHitPoints = 210
+
+//Rate at which shield recharges (points per second... we think)
+shieldRate = 1.5
+
+//Possible Craft Names
+possibleCraftNames = 
+	"Aurelivs Centre" "Palatine Centre" "Crato Centre" "Vvpian Centre" "Vespian Centre" "Octavivs Centre" "Decivs Centre" 
+
+// Romulan Non-Combat Sensors
+rangeScan = 800.0f
+
+shieldhit = "shield_rom_hitXL"
+shieldhitcritical = "shield_rom_hitcritXL"
+shielddown = "shield_rom_down"
+
+//**********************************************************************
+//Construction Parameters
+
+podHardpoints = "pod10" "pod11" "pod12" "pod13" "pod15" "pod31" "pod32" "pod33" "pod34" "pod35"
+buildItem0 = "rompod11"
+buildItem1 = "rompod12"
+buildItem2 = "rompod13"
+buildItem3 = "rompod14"
+buildItem4 = "rompod15"
+
+secondaryBuildItem0 = "rompod21"
+secondaryBuildItem1 = "rompod22"
+secondaryBuildItem2 = "rompod23"
+secondaryBuildItem3 = "rompod24"
+secondaryBuildItem4 = "rompod25"
+
+//**********************************************************************
+
+//**********************************************************************
+//ART PARAMETERS & WEAPON NAMES
+
+// Hardpoints to hit for various systems and other locations.
+enginesTargetHardpoints = 
+lifeSupportTargetHardpoints = "hp15" "hp16" 
+weaponsTargetHardpoints = 
+shieldGeneratorTargetHardpoints = "hp13" "hp14" 
+sensorsTargetHardpoints = "hp02" 
+hullTargetHardpoints = "hp03" "hp04" "hp05" "hp06" "hp07" "hp17" "hp18" "hp19" "hp20" "hp21" "hp22"
+criticalTargetHardpoints = "hp01" "hp08" "hp09" "hp10" "hp11" "hp12" 
+
+//**********************************************************************
+//**********************************************************************
+//AI system parameters
+//These parameters influence how the AI evaluates and compares craft.
+
+//The normalized intrinsic value of a target.  High value craft make good
+//attack targets. (0.0=lowest value, 1.0=highest value)
+intrinsicValue = 1.00f
+
+
+//**********************************************************************
+//MESSAGE & SOUND PARAMETERS
+
+eventSelect = "ShipUpgradeStationSelect"
+eventAcknowledge = "ShipUpgradeStationAcknowledge"
+eventDecommission = "ShipUpgradeStationDecommission"
+
+//**********************************************************************
+
+
+//**********************************************************************
+//KEYMAP LABEL
+// Obsolete, use hotkeyLabel
+// keymapLabel = "research_station"
+hotkeyLabel = "HOTKEY_U"
+
+//************************************************************
+// Brian additions for context sensitive menus
+alert = 0
+transporter = 1
+
+animation = 2
+
+//ScaleSOD = 0.350
+ScaleSOD = 0.8
