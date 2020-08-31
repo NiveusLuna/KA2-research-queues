@@ -66,15 +66,17 @@ shielddown = "shield_fed_down"
 
 podHardpoints = "hp01" "hp02" "hp03" "hp04" "hp05" "hp06" "hp01" "hp02" "hp03" 
 BuildItem0 = "FedHull1"
-BuildItem1 = "FedHull3"
-buildItem2 = "FedHull5"
-buildItem3 = "FedHull6"
-buildItem4 = "FedHull7"
+BuildItem1 = "FedHull2"
+BuildItem2 = "FedHull3"
+BuildItem3 = "FedHull4"
+buildItem4 = "FedHull5"
+buildItem5 = "FedHull6"
+buildItem6 = "FedHull7"
+buildItem7 = "FedHull8"
 
-secondaryBuildItem0 = "FedHull2"
-secondaryBuildItem1 = "FedHull4"
+
 //secondarybuildItem2 = "NONE" No secondary since the BC doesn't lead to any new Cap ships (doctrine prevents)
-secondarybuildItem4 = "FedHull8"
+
 
 
 
