@@ -89,3 +89,6 @@ isresearchedbyyard = 1
 
 // I make upgrade noises!
 constructionvoice = 3
+
+// I am a special snowflake!
+fleetcapfile = "all_cap_research.odf"
