@@ -63,16 +63,15 @@ shielddown = "shield_lyr_down"
 
 podHardpoints = "hp01" "hp03" "hp05" "hp02" "hp04" "hp01" "hp03" "hp05" "hp02" "hp04"
 buildItem0 = "LyrPod11"
-buildItem1 = "LyrPod12"
-buildItem2 = "LyrPod13"
-buildItem3 = "LyrPod14"
-buildItem4 = "LyrPod15"
-
-secondaryBuildItem0 = "LyrPod21"
-secondaryBuildItem1 = "LyrPod22"
-secondaryBuildItem2 = "LyrPod23"
-secondaryBuildItem3 = "LyrPod24"
-secondaryBuildItem4 = "LyrPod25"
+buildItem1 = "LyrPod21"
+buildItem2 = "LyrPod12"
+buildItem3 = "LyrPod22"
+buildItem4 = "LyrPod13"
+buildItem5 = "LyrPod23"
+buildItem6 = "LyrPod14"
+buildItem7 = "LyrPod24"
+buildItem8 = "LyrPod15"
+buildItem9 = "LyrPod25"
 
 //**********************************************************************
 

@@ -63,16 +63,15 @@ shielddown = "shield_kli_down"
 
 podHardpoints = "hp22" "hp23" "hp24" "hp25" "hp26" "hp27" "hp28" "hp29" "hp30" "hp32"
 buildItem0 = "KliPod11"
-buildItem1 = "KliPod12"
-buildItem2 = "KliPod13"
-buildItem3 = "KliPod14"
-buildItem4 = "KliPod15"
-
-secondaryBuildItem0 = "KliPod21"
-secondaryBuildItem1 = "KliPod22"
-secondaryBuildItem2 = "KliPod23"
-secondaryBuildItem3 = "KliPod24"
-secondaryBuildItem4 = "KliPod25"
+buildItem1 = "KliPod21"
+buildItem2 = "KliPod12"
+buildItem3 = "KliPod22"
+buildItem4 = "KliPod13"
+buildItem5 = "KliPod23"
+buildItem6 = "KliPod14"
+buildItem7 = "KliPod24"
+buildItem8 = "KliPod15"
+buildItem9 = "KliPod25"
 
 //**********************************************************************
 

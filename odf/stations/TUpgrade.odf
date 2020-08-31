@@ -55,28 +55,15 @@ shielddown = "shield_tho_down"
 
 podHardpoints = "hp01" "hp02" "hp03" "hp04" "hp05" "hp01" "hp02" "hp03" "hp04" "hp05" 
 buildItem0 = "thopod11"
-buildItem1 = "thopod12"
-buildItem2 = "thopod13"
-buildItem3 = "thopod14"
-buildItem4 = "thopod15"
-
-//buildItem0 = "thopod15"
-//buildItem1 = "thopod14"
-//buildItem2 = "thopod13"
-//buildItem3 = "thopod12"
-//buildItem4 = "thopod11"
-
-secondaryBuildItem0 = "thopod21"
-secondaryBuildItem1 = "thopod22"
-secondaryBuildItem2 = "thopod23"
-secondaryBuildItem3 = "thopod24"
-secondaryBuildItem4 = "thopod25"
-
-//secondaryBuildItem0 = "thopod25"
-//secondaryBuildItem1 = "thopod24"
-//secondaryBuildItem2 = "thopod23"
-//secondaryBuildItem3 = "thopod22"
-//secondaryBuildItem4 = "thopod21"
+buildItem1 = "thopod21"
+buildItem2 = "thopod12"
+buildItem3 = "thopod22"
+buildItem4 = "thopod13"
+buildItem5 = "thopod23"
+buildItem6 = "thopod14"
+buildItem7 = "thopod24"
+buildItem8 = "thopod15"
+buildItem9 = "thopod25"
 
 //**********************************************************************
 
