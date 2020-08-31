@@ -1,0 +1,149 @@
+#include "research.odf"
+
+//**********************************************************************
+//MAIN DESIGN PARAMETERS
+
+//Name of Ship class in Ship Display window & in edit mode & tooltip
+unitName = "UPVHR Centre"
+
+//tooltips
+tooltip = "Utopia Planitia Vessel Hull Research Centre - Hull Research"
+verboseTooltip = "FED_RESEARCHA_V"
+
+//Race which can build ship & starting race of ship
+race = "federation"
+
+//Amount of time required to build ship
+buildTime = 250.0
+
+//Number of officers required to build this ship
+officerCost = 20
+
+//Number of crew required to build ship & Starting crew
+crewCost = 40
+
+//Dilithium Cost to build
+dilithiumCost = 0
+
+//Metal cost to build
+metalCost = 1500
+
+//Max Shield Strength & Begining Shield Strength <1000
+//maxHealth = 690
+maxHealth = 350
+maxShields = 700
+
+//SYSTEM HITPOINTS
+shieldGeneratorHitPoints = 230
+enginesHitPoints = 0
+weaponsHitPoints = 230
+lifeSupportHitPoints = 230
+sensorsHitPoints = 230
+
+//Rate at which shield recharges (points per second... we think)
+shieldRate = 1.5
+
+// Federation Non-Combat Sensors
+rangeScan = 600.0f
+
+shieldhit = "shield_fed_hitXL"
+shieldhitcritical = "shield_fed_hitcritXL"
+shielddown = "shield_fed_down"
+
+//**********************************************************************
+//Construction Parameters
+
+// KA2 Empire Notes
+// Hull 1 = Akula R
+// Hull 2 = Miranda 
+// Hull 3 = Constitution R
+// Hull 4 = Lexington
+// Hull 5 = Excelsior
+// Hull 6 = Ulysses
+// Hull 7 = Missouri
+// Hull 8 = Yamato
+
+
+podHardpoints = "hp01" "hp02" "hp03" "hp04" "hp05" "hp06" "hp01" "hp02" "hp03" 
+BuildItem0 = "FedHull1"
+BuildItem1 = "FedHull3"
+buildItem2 = "FedHull5"
+buildItem3 = "FedHull6"
+buildItem4 = "FedHull7"
+
+secondaryBuildItem0 = "FedHull2"
+secondaryBuildItem1 = "FedHull4"
+//secondarybuildItem2 = "NONE" No secondary since the BC doesn't lead to any new Cap ships (doctrine prevents)
+secondarybuildItem4 = "FedHull8"
+
+
+
+//**********************************************************************
+
+//Possible Craft Names
+possibleCraftNames = 
+	"Research Station Alpha" "Research Station Beta" "Research Station Gamma" "Research Station Delta" "Research Station Epsilon" "Research Station Zeta" "Research Station Eta" "Research Station Theta" 
+
+//**********************************************************************
+//ART PARAMETERS & WEAPON NAMES
+
+// Phaser
+weapon1 = "fSphas"
+weaponHardpoints1 = "hp06" 
+
+// Phaser
+weapon2 = "fSphas2"
+weaponHardpoints2 = "hp05" 
+
+// Phaser
+weapon3 = "fSphas3"
+weaponHardpoints3 = "hp03"
+
+// Phaser
+weapon4 = "fSphas"
+weaponHardpoints4 = "hp02"
+
+// Hardpoints to hit for various systems and other locations.
+enginesTargetHardpoints = 
+lifeSupportTargetHardpoints = "hp09" "hp10" 
+weaponsTargetHardpoints = "hp02" "hp03" "hp05" "hp06" 
+shieldGeneratorTargetHardpoints = "hp07" "hp08"
+sensorsTargetHardpoints = "hp07" "hp08" 
+hullTargetHardpoints = "hp07" "hp08" "hp09" "hp10" 
+criticalTargetHardpoints = "hp07" "hp08" "hp09" "hp10" 
+
+//**********************************************************************
+//**********************************************************************
+//AI system parameters
+//These parameters influence how the AI evaluates and compares craft.
+
+//The normalized intrinsic value of a target.  High value craft make good
+//attack targets. (0.0=lowest value, 1.0=highest value)
+intrinsicValue = 1.00f
+
+
+//**********************************************************************
+
+
+//**********************************************************************
+//MESSAGE & SOUND PARAMETERS
+
+eventSelect = "ResearchStationSelect"
+eventAcknowledge = "ResearchStationAcknowledge"
+eventDecommission = "ResearchStationDecommission"
+
+//**********************************************************************
+
+
+//**********************************************************************
+//KEYMAP LABEL
+// Obsolete, use hotkeyLabel
+// keymapLabel = "research_station"
+hotkeyLabel = "HOTKEY_F9"
+
+//************************************************************
+// Brian additions for context sensitive menus
+transporter = 1
+alert = 1
+baseName = "fresearcha"
+ScaleSOD = 1.0 
